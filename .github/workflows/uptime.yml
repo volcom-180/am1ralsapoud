@@ -12,11 +12,11 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   repository_dispatch:
-    types: [uptime]
+    types: [mods truck]
   workflow_dispatch:
 jobs:
   release:
-    name: Check status
+    name truxk
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
